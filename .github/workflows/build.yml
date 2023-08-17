@@ -19,4 +19,4 @@ jobs:
 
     steps:
      - name: docker login
-       run: docker login -u betoporto -p minhasenha
+       run: docker login -u betoporto -p dckr_pat_YjNZKQMbVuoCsGNOSApsZR__VDU
