@@ -23,6 +23,6 @@ jobs:
      - name: docker login
        run: docker login -u betoporto -p dckr_pat_YjNZKQMbVuoCsGNOSApsZR__VDU
      - name: build image
-       run: docker build -t ping .
+       run: docker build -t betoporto/ping .
      - name: push to docker
        run: docker push betoporto/ping
