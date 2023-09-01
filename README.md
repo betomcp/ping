@@ -3,6 +3,18 @@
 API Java com Spring Boot para uso genérico adequada para criação de imagens de implementação CI/CD
 
 
+## app web + Docker + deploy
+
+### Azure
+
+-- Criar um grupo de recursos
+	- rs-azure-user
+-- Acessar App Service
+	- Criar Web App
+		- rm86750-ping
+	- configurar deployment
+	 - Acessar central de implantação
+
 ## Spring Boot
 
 Project: Maven
