@@ -90,6 +90,9 @@ docker image ls
 ```
 docker run -d -p 8080:8080 ping
 ```
+```
+docker run -d -e PROFILE=dev -p 8080:8080 ping
+```
 
 #### Listando Containers em execução
 

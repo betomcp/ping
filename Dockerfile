@@ -5,6 +5,8 @@ RUN mkdir /project
 
 COPY . /project
 
+ENV PROFILE=dev
+
 WORKDIR /project
 
 RUN mvn clean package
@@ -22,4 +24,6 @@ WORKDIR /app
 
 EXPOSE 8080
 
-CMD java -jar app.jar
+# CMD java -jar app.jar
+
+ENTRYPOINT ["java", "-Dspring.profiles.active=${PROFILE}", "-jar", "app.jar"]
